@@ -1,0 +1,32 @@
+.link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 700;
+  font-size: 20px;
+  height: 50px;
+  width: 100px;
+  color: #333;
+  text-align: center;
+  outline: none;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.activeLink {
+  composes: link;
+  color: #c3e1ec;
+  background-color: #7d7492;
+  border-radius: 8px;
+}
+
+.link:not(:last-child) {
+  margin-right: 40px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}

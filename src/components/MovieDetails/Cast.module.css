@@ -1,0 +1,37 @@
+.list {
+  width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px 10px;
+  list-style: none;
+}
+
+.item {
+  width: 180px;
+  margin-bottom: 20px;
+}
+
+.photo {
+  height: 160px;
+  margin: 0 auto;
+  width: 120px;
+  margin-bottom: 8px;
+}
+
+.originalName {
+  margin: 0 auto;
+  width: 140px;
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.character {
+  margin: 0 auto;
+  width: 140px;
+  text-align: center;
+  font-style: italic;
+}
